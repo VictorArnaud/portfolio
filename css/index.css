@@ -1,18 +1,32 @@
-html, body {
-  height: 100%;
-}
-
 .capa {
   width: 100%;
 }
 
 .victor-img {
   position: relative;
-  bottom: 50%;
+  bottom: 75%;
 }
 
 .btn-social {
   position: relative;
-  bottom: 9%;
+  bottom: 17%;
+  border-width: 5px;
 }
 
+.header {
+  height: 145px;
+}
+
+.who-i-am {
+  margin-top: -80px;
+}
+
+.profile-icons {
+  font-size: 16px;
+}
+
+.address-icon {
+  font-size: 18px;
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
