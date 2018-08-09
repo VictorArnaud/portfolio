@@ -1,3 +1,0 @@
-# portfolio
-
-Victor's portfolio
