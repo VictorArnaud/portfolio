@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+.capa {
+  width: 100%;
+}
+
+.victor-img {
+  position: relative;
+  bottom: 50%;
+}
+
+.btn-social {
+  position: relative;
+  bottom: 9%;
+}
+
