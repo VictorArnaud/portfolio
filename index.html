@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="css/index.css" rel="stylesheet" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50" id="body">
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="#body">Victor Arnaud</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#information">Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="information"></div>
       <img src="img/capa.jpeg" alt="Capa" class="capa img-fluid" />
       <div class="row header container-fluid">
         <div class="col-sm-4">
@@ -98,25 +120,27 @@
               needed. I strive to improve my knowledge for better results and to ensure the quality of the product.
               </p>
               <p>
-              I always try to work as a team, with great satisfaction in teaching and learning any knowledge, helping to
-              generate solutions for the company, meeting the objectives in the area in which it is assigned, also seeking
-              professional development.
-              </p>
-              <p>
-              I am proactive, communicative, focused and punctual, I adapt to different routines and face any challenge as
-              a great opportunity to develop my knowledge and always achieve positive results, I seek to understand what I
-              did wrong and what I can improve, I look for a company that Allow for my intellectual and technical growth,
-              so I can contribute to it for a long time as we grow together.
+              I am proactive, communicative, focused and punctual, always try to work as a team, with great satisfaction
+              in teaching and learning any knowledge. I adapt to different routines and face any challenge as a
+              great opportunity to develop my knowledge and always achieve positive results.
               </p>
             </div>
           </div>
         </div>
 
         <!-- Skills -->
-        <div class="row">
+        <div class="row" id="skills">
           <div class="col-sm-12">
             <h1>Skills</h1>
             <hr />
+            <p><b>Basic (0% - 33%)</b>: In programming it is about solving simple problems using the defined language;
+            in the framework the creation of a basic CRUD; tools and others is related to the basic concepts of it.</p>
+            <p><b>Intermediary (33% - 66%)</b>: In programming it is about solving more elaborate problems using the
+            defined language; in the framework this level already defines a domain on it; tools and others is related to
+            more advanced concepts of the same.</p>
+            <p><b>Advanced (66% - 100%)</b>: In programming refers to solving any type of problem using a good search in
+            the defined language; in the framework this level presents domain of the same; tools and others
+            this level has a domain of it.</p>
             <div class="card">
               <div class="card-header bg-dark text-white">
                 Programming Languages
@@ -147,20 +171,6 @@
                         Basic
                       </div>
                       <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 10%">
-                        Intermediary
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <div class="row">
-                  <div class="col-sm-3">Java/Android</div>
-                  <div class="col-sm-9">
-                    <div class="progress">
-                      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 33%">
-                        Basic
-                      </div>
-                      <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 5%">
                         Intermediary
                       </div>
                     </div>
@@ -260,17 +270,6 @@
                     </div>
                   </div>
                 </div>
-                <hr />
-                <div class="row">
-                  <div class="col-sm-3">Spring Boot</div>
-                  <div class="col-sm-9">
-                    <div class="progress">
-                      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 30%">
-                        Basic
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <br />
@@ -297,7 +296,7 @@
                 </div>
                 <hr />
                 <div class="row">
-                  <div class="col-sm-3">VIM</div>
+                  <div class="col-sm-3">VIM and Pycharm</div>
                   <div class="col-sm-9">
                     <div class="progress">
                       <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 33%">
@@ -421,6 +420,20 @@
                 </div>
                 <hr />
                 <div class="row">
+                  <div class="col-sm-3">Devops</div>
+                  <div class="col-sm-9">
+                    <div class="progress">
+                      <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 33%">
+                        Basic
+                      </div>
+                      <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 33%">
+                        Intermediary
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
                   <div class="col-sm-3">Data Science</div>
                   <div class="col-sm-9">
                     <div class="progress">
@@ -446,36 +459,128 @@
           </div>
         </div>
         <br />
-        <div class="row">
+
+        <!-- Projects -->
+        <div class="row" id="projects">
           <div class="col-sm-12">
             <h1>Projects</h1>
             <hr />
+            My most recent personal and open source projects
           </div>
         </div>
         <br />
-        <div class="row">
+
+        <!-- Experience -->
+        <div class="row" id="experience">
           <div class="col-sm-12">
             <h1>Experience</h1>
             <hr />
+            <p class="text-justify">Experiences based on personal projects, work in research laboratories, companies,
+            startups, freelances and volunteer work.</p>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Full-Stack Developer leader and Operations</h4>
+                    <span class="small text-secondary">
+                      Information Technology Research and Application Center (ITRAC)
+                    </span><br />
+                    <span class="small text-secondary">2018 - Now</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="text-justify">
+                      Development of a tool for costing government services before and after digital transformation and
+                      worked with software infrastructure for some time.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Freelance</h4>
+                    <span class="small text-secondary">
+                      Self Employed
+                    </span><br />
+                    <span class="small text-secondary">2017 - 2018</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="text-justify">
+                      I developed 2 web tools for different clients using agile methodology.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Python Full-Stack Developer</h4>
+                    <span class="small text-secondary">
+                      Advanced Laboratory of production, research and innovation in software (LAPPIS)
+                    </span><br />
+                    <span class="small text-secondary">2016 - 2017</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="text-justify">
+                      Lappis is a laboratory of the campus of engineering of the gama that takes care mainly of
+                      maintenance and evolution of free software.
+
+                      I worked in the software maintenance and evolution team, Gestorpsi, in the back-end and front-end,
+                      improving my knowledge in Django, using agile methodologies such as Scrum and XP.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Volunteer Works</h4>
+                    <span class="small text-secondary">2014 - 2018</span>
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="text-justify">
+                      <b>Student Mentor (2018)</b>: Mentor in the discipline Software Testing and Software Development
+                      Methodology in the university of brasilia, campus of engineering UnB-Gama
+                    </p>
+                    <p class="text-justify">
+                      <b>Student Mentor (2017)</b>: Mentor in the discipline APC - Programming algorithms for
+                      computers in the university of brasilia, campus of engineering UnB-Gama
+                    </p>
+                    <p class="text-justify">
+                      <b>Student Mentor (2016)</b>: Basic Computer Monitoring in which it helps the students of the
+                      discipline to program in the C language
+                    </p>
+                    <p class="text-justify">
+                      <b>Taekwondo Teacher (2014 - 2017)</b>: Teacher of taekwondo, black belt 1 ° dan at the university
+                      of brasília on the campus of engineering of the gama, project culture and leisure.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <br />
-        <div class="row">
+
+        <!-- Certificates -->
+        <div class="row" id="certificates">
           <div class="col-sm-12">
             <h1>Certificates</h1>
             <hr />
+            My most recent certificates
           </div>
         </div>
         <br />
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>Contact</h1>
-            <hr />
-          </div>
-        </div>
       </div>
     </main>
-    <footer>
+    <footer class="footer bg-dark text-white">
+      <p class="text-center">Thanks for visiting my website!</p>
+      <p class="text-center">
+        Do you have any questions or offers? You can contact me by sending an email to
+        <span class="text-success">victorhad@gmail.com</span>.
+      </p>
+      <div class="bg-dark text-white">
+        <span class="made">
+          Made by <a class="victor-link" href="https://github.com/VictorArnaud" target="__blank">Victor Arnaud</a>
+        </span>
+      </div>
     </footer>
     <br />
     <!-- jQuery library -->

@@ -7,6 +7,15 @@
   bottom: 75%;
 }
 
+.victor-link {
+  color: white;
+}
+
+.victor-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-social {
   position: relative;
   bottom: 17%;
@@ -31,4 +40,14 @@
   font-size: 18px;
   padding-left: 2.5px;
   padding-right: 2.5px;
+}
+
+.footer {
+  padding-top: 10px;
+  position: relative;
+  top: 24px;
+}
+
+.made {
+  padding-left: 10px;
 }
