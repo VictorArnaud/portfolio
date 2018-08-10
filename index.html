@@ -24,9 +24,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#experience">Experience</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certificates">Certificates</a>
-          </li>
         </ul>
       </nav>
       <div id="information"></div>
@@ -131,7 +128,19 @@
         <!-- Skills -->
         <div class="row" id="skills">
           <div class="col-sm-12">
-            <h1>Skills</h1>
+            <div class="row">
+              <div class="col-sm-10">
+                <h1>Skills</h1>
+              </div>
+              <div class="col-sm-2">
+                <a href="https://drive.google.com/drive/folders/0B-Bp7bP4JOUjcHNza1FRd19ndk0?usp=sharing"
+                   target="__blank"
+                   role="button"
+                   class="btn btn-info btn-block certificates">
+                   Certificates
+                </a>
+              </div>
+            </div>
             <hr />
             <p><b>Basic (0% - 33%)</b>: In programming it is about solving simple problems using the defined language;
             in the framework the creation of a basic CRUD; tools and others is related to the basic concepts of it.</p>
@@ -465,7 +474,109 @@
           <div class="col-sm-12">
             <h1>Projects</h1>
             <hr />
-            My most recent personal and open source projects
+            <p>My most recent personal and open source projects</p>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#pgtbl">
+                    PGTBL - Team Based Learning Management Platform
+                  </a>
+                </div>
+                <div id="pgtbl" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Team-based learning or TBL is a collaborative learning teaching strategy that focuses on a
+                      three-step cycle:
+                    </p>
+                    <ul>
+                      <li>
+                        <b>Preparation</b>: Basically the teacher will make available articles and study books that
+                        will be the preparation for the evaluation;
+                      </li>
+                      <li>
+                        <b>Class evaluations</b>: The first evaluation is individual and the second in group to test the
+                        knowledge acquired in the preparation each with its respective weight;
+                      </li>
+                      <li>
+                        <b>Small project focused on the application</b>: Apply all the knowledge acquired in a real
+                        context of the proposed topic.
+                      </li>
+                    </ul>
+                    <p class="card-text">
+                      PGTBL is a platform to manage and apply this methodology
+                    </p>
+                    <a href="https://github.com/VictorArnaud/PGTBL"
+                       target="__blank"
+                       class="card-link float-right">
+                       More Information
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#softeng">
+                    SoftEng - Software Engineering Ontology
+                  </a>
+                </div>
+                <div id="softeng" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Software Engineering Ontology app to create pedagogical course project
+                    </p>
+                    <a href="https://github.com/VictorArnaud/SoftEng"
+                       target="__blank"
+                       class="card-link float-right">
+                       More Information
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#sdcurve">
+                    SDCurve - Down Syndrome Growth Curves Microservice
+                  </a>
+                </div>
+                <div id="sdcurve" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Microservice of growth curve, height, weight, EMC and cephalic perimeter for children with Down
+                      Syndrome
+                    </p>
+                    <a href="https://github.com/VictorArnaud/sdcurve"
+                       target="__blank"
+                       class="card-link float-right">
+                       More Information
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#pigeon">
+                    Pigeon - Intermediate of RabbitMQ services
+                  </a>
+                </div>
+                <div id="pigeon" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Pigeon is a framework developed in python that was made to intermediate the use of RabbitMQ
+                      services in a quick and easy way, these services of communication between components / services
+                      through different types of context of exchange of messages
+                    </p>
+                    <a href="https://github.com/VictorArnaud/Pigeon"
+                       target="__blank"
+                       class="card-link float-right">
+                       More Information
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <br />
@@ -558,23 +669,13 @@
           </div>
         </div>
         <br />
-
-        <!-- Certificates -->
-        <div class="row" id="certificates">
-          <div class="col-sm-12">
-            <h1>Certificates</h1>
-            <hr />
-            My most recent certificates
-          </div>
-        </div>
-        <br />
       </div>
     </main>
     <footer class="footer bg-dark text-white">
       <p class="text-center">Thanks for visiting my website!</p>
       <p class="text-center">
         Do you have any questions or offers? You can contact me by sending an email to
-        <span class="text-success">victorhad@gmail.com</span>.
+        <span class="text-info">victorhad@gmail.com</span>.
       </p>
       <div class="bg-dark text-white">
         <span class="made">

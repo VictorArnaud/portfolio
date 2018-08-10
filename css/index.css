@@ -44,10 +44,15 @@
 
 .footer {
   padding-top: 10px;
+  margin-top: -20px;
   position: relative;
   top: 24px;
 }
 
 .made {
   padding-left: 10px;
+}
+
+.certificates {
+  margin-top: 18px;
 }
