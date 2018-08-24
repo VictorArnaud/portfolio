@@ -56,3 +56,21 @@
 .certificates {
   margin-top: 18px;
 }
+
+.card-header > .card-link {
+  color: white !important;
+}
+
+.card-body > .card-link {
+  color: #17a2b8;
+}
+
+.card-header {
+  background-image: linear-gradient(to right, #106675, #17a2b8);
+}
+
+.gradient {
+  background-image: linear-gradient(#0C1C13, #17a2b8);
+}
+
+
