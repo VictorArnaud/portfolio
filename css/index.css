@@ -34,7 +34,9 @@
   .social-align {
     margin-left: 70px;
   }
+}
 
+@media screen and (min-width: 1000px) {
   .who-i-am {
     margin-top: -80px;
   }
