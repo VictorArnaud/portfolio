@@ -22,18 +22,7 @@
 
 .btn-social {
   position: relative;
-  bottom: 17%;
-  border-width: 5px;
-}
-
-.social-align {
-  margin-left: 162px;
-}
-
-@media screen and (max-width: 1000px) {
-  .social-align {
-    margin-left: 70px;
-  }
+  bottom: 20px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -44,16 +33,12 @@
 
 @media screen and (max-width: 600px) {
   .btn-social {
-    bottom: 65px;
-    left: 40px;
-  }
-
-  .social-align {
-    margin-left: 5px;
+    bottom: 60px;
+    left: 20px;
   }
 
   header {
-    margin-top: 175px;
+    margin-top: 56px;
   }
 
    .capa {
