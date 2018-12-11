@@ -10,12 +10,6 @@ var options = {
       shape: "box",
     }
   },
-  manipulation: {
-    editEdge: function(nodeData,callback) {
-      nodeData.label = prompt("Please enter edge label", "");
-      callback(nodeData);
-    }
-  }
 };
 
 var nodes = new vis.DataSet([
