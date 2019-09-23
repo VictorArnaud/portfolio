@@ -45,13 +45,15 @@ var nodes = new vis.DataSet([
   {id: 33, label: 'IOS', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49753379-5d94dc00-fc9a-11e8-8603-84e39293093a.png'},
   {id: 34, label: 'Android', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49753401-6be2f800-fc9a-11e8-800b-a96990679c4d.png'},
   {id: 35, label: 'React', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65401932-8c032400-dda1-11e9-863e-f13cd5bc9de5.png'},
-  {id: 36, label: 'Computer Vision', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65402057-60346e00-dda2-11e9-934d-14ab3ff5a1b5.png'}
+  {id: 36, label: 'Computer Vision', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65402057-60346e00-dda2-11e9-934d-14ab3ff5a1b5.png'},
+  {id: 37, label: 'GraphQL', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65402104-c7522280-dda2-11e9-86f2-206e51608c1e.png'}
 ]);
 
 var edges = new vis.DataSet([
   {from: 1, to: 2, arrows: 'to'},
   {from: 1, to: 36, arrows: 'to'},
   {from: 2, to: 3, arrows: 'to'},
+  {from: 2, to: 37, arrows: 'to'},
   {from: 1, to: 4, arrows: 'to'},
   {from: 1, to: 5, arrows: 'to'},
   {from: 1, to: 6, arrows: 'to'},
@@ -77,6 +79,7 @@ var edges = new vis.DataSet([
   {from: 24, to: 25, arrows: 'to'},
   {from: 2, to: 27, arrows: 'to'},
   {from: 3, to: 27, arrows: 'to'},
+  {from: 37, to: 27, arrows: 'to'},
   {from: 13, to: 27, arrows: 'to'},
   {from: 10, to: 27, arrows: 'to'},
   {from: 29, to: 27, arrows: 'to'},
