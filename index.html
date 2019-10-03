@@ -25,31 +25,31 @@
             <li class="nav-item">
               <a class="nav-link" href="#information">
                 <i class="fa fa-address-card"></i>
-                Information
+                <span id="information-navbar"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">
                 <i class="fa fa-code"></i>
-                Skills
+                <span id="skills-navbar"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">
                 <i class="fa fa-coffee"></i>
-                Projects
+                <span id="projects-navbar"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">
                 <i class="fa fa-globe"></i>
-                Experience
+                <span id="experience-navbar"></span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#graph">
                 <i class="fa fa-connectdevelop"></i>
-                Knowledge Graph
+                <span id="knowledge-graph-navbar"></span>
               </a>
             </li>
             <!-- <li class="nav-item">
@@ -68,7 +68,8 @@
       <div class="row header container-fluid">
         <div class="col-sm-4">
           <img
-            src="img/victor.jpeg"
+            id="img"
+            src="#"
             class="victor-img rounded-circle img-thumbnail mx-auto d-block img-fluid"
             alt="Victor Arnaud"
           />
@@ -173,7 +174,7 @@
               <div class="col-sm-6">
                 <h1>
                   <i class="fa fa-address-card-o"></i>
-                  Who am I?
+                  <span id="who-title"></span>
                 </h1>
               </div>
               <div class="col-sm-6">
@@ -195,31 +196,32 @@
               <div class="col-sm-10">
                 <h1>
                   <i class="fa fa-code"></i>
-                  Current Skills
+                  <pan id="skills-title"></pan>
                 </h1>
               </div>
               <div class="col-sm-2">
-                <a href="https://drive.google.com/drive/folders/0B-Bp7bP4JOUjcHNza1FRd19ndk0?usp=sharing"
+                <a href="#"
+                   id="certificate-link" 
                    target="__blank"
                    role="button"
                    class="btn btn-info btn-block certificates">
                    <i class="fa fa-certificate"></i>
-                   Certificates
+                   <span id="certificate"></span>
                 </a>
               </div>
             </div>
             <hr />
             <p>
               <i class="fa fa-hourglass-start"></i>
-              <b>Junior</b>: 0 to 3 years experience.
+              <span id="skills-junior"></span>
             </p>
             <p>
               <i class="fa fa-hourglass-half"></i>
-              <b>Pleno</b>: 3 to 7 years experience.
+              <span id="skills-pleno"></span>
             </p>
             <p>
               <i class="fa fa-hourglass-end"></i>
-              <b>Sênior</b>: 7+ years experience.
+              <span id="skills-senior"></span>
             </p>
             <div id="skills-cards"></div>
           </div>
@@ -231,10 +233,10 @@
           <div class="col-sm-12">
             <h1>
               <i class="fa fa-coffee"></i>
-              Projects
+              <span id="projects-title"></span>
             </h1>
             <hr />
-            <p>My most recent personal and open source projects</p>
+            <p id="projects-description"></p>
             <div id="accordion">
               <div id="projects-card"></div>
             </div>
@@ -247,39 +249,38 @@
           <div class="col-sm-12">
             <h1>
               <i class="fa fa-globe"></i>
-              Experience
+              <span id="experience-title"></span>
             </h1>
             <hr />
-            <p class="text-justify">Experiences based on personal projects, work in research laboratories, companies,
-            startups, freelances and volunteer work.</p>
+            <p class="text-justify" id="experience-description"></p>
             <div class="card">
               <div class="card-body" id="experience-card"></div>
             </div>
           </div>
         </div>
         <br />
-        <div class="row">
+        <div class="row" >
           <div class="col-sm-12">
             <h1>
               <i class="fa fa-connectdevelop"></i>
-              Knowledge Graph
+              <span id="graph-title"></span>
             </h1>
             <hr />
-            <p class="text-justify">Graph of knowledge and technologies.</p>
+            <p class="text-justify" id="graph-description"></p>
             <div id="graph"></div>
           </div>
         </div>
       </div>
     </main>
     <footer class="footer text-white">
-      <p class="text-center">Thanks for visiting my website!</p>
+      <p class="text-center" id="footer-thanks"></p>
       <p class="text-center">
-        Do you have any questions or offers? You can contact me by sending an email to
-        <span class="victor-link">victorhad@gmail.com</span>.
+        <span id="footer-question"></span>
+        <span class="victor-link" id="footer-email"></span>.
       </p>
       <div class="text-white">
         <span class="made">
-          Made by <a class="victor-link" href="https://github.com/VictorDeon" target="__blank">Victor Arnaud</a>
+          <span id="footer-link"></span> <a class="victor-link" href="https://github.com/VictorDeon" target="__blank" id="footer-name"></a>
         </span>
       </div>
     </footer>

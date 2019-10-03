@@ -4,8 +4,32 @@ let info = {
     short_name: "Victor Deon",
     age: "26 years old",
     course: "Software engineer",
-    email: "victorhad@gmail.com",
+    email: "vwapplication@gmail.com",
     address: "Brasilia - DF, Brazil",
+    img: "img/victor.jpeg",
+    certificate_link: "https://drive.google.com/drive/folders/0B-Bp7bP4JOUjcHNza1FRd19ndk0?usp=sharing",
+    site_info: {
+        information_navbar: "Information",
+        skills_navbar: "Skills",
+        projects_navbar: "Projects",
+        experience_navbar: "Experience",
+        knowledge_graph_navbar: "Knowledge Graph",
+        who_title: "Who am I?",
+        certificate: "Certificates",
+        skills_title: "Current Skills",
+        skills_junior: "<b>Junior</b>: 0 to 3 years experience.",
+        skills_pleno: "<b>Pleno</b>: 3 to 7 years experience.",
+        skills_senior: "<b>Sênior</b>: 7+ years experience.",
+        projects_title: "Projects",
+        projects_description: "My most recent personal and open source projects.",
+        experience_title: "Experience",
+        experience_description: "Experiences based on personal projects, work in research laboratories, companies, startups, freelances and volunteer work.",
+        graph_title: "Knowledge Graph",
+        graph_description: "Graph of knowledge and technologies.",
+        footer_thanks: "Thanks for visiting my website!",
+        footer_question: "Do you have any questions or offers? You can contact me by sending an email to",
+        footer_link: "Made by"
+    },
     description: [
         `
         Software engineering student at the University of Brasília.

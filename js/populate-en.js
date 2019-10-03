@@ -1,11 +1,38 @@
 function basicInfo() {
-    document.getElementById("name").innerHTML = info.short_name
-    document.getElementById("full-name").innerHTML = info.name
-    document.getElementById("age").innerHTML = info.age
-    document.getElementById("course").innerHTML = info.course
-    document.getElementById("email").innerHTML = info.email
-    document.getElementById("address").innerHTML = info.address
-    document.getElementById("updated_at").innerHTML = info.updated_at
+    document.getElementById("name").innerHTML = info.short_name;
+    document.getElementById("full-name").innerHTML = info.name;
+    document.getElementById("age").innerHTML = info.age;
+    document.getElementById("course").innerHTML = info.course;
+    document.getElementById("email").innerHTML = info.email;
+    document.getElementById("address").innerHTML = info.address;
+    document.getElementById("updated_at").innerHTML = info.updated_at;
+    document.getElementById("img").src = info.img;
+    document.getElementById("certificate-link").href = info.certificate_link
+}
+
+function siteInfo() {
+    document.getElementById("information-navbar").innerHTML = info.site_info.information_navbar;
+    document.getElementById("skills-navbar").innerHTML = info.site_info.skills_navbar;
+    document.getElementById("projects-navbar").innerHTML = info.site_info.projects_navbar;
+    document.getElementById("experience-navbar").innerHTML = info.site_info.experience_navbar;
+    document.getElementById("knowledge-graph-navbar").innerHTML = info.site_info.knowledge_graph_navbar;
+    document.getElementById("who-title").innerHTML = info.site_info.who_title;
+    document.getElementById("certificate").innerHTML = info.site_info.certificate;
+    document.getElementById("skills-title").innerHTML = info.site_info.skills_title;
+    document.getElementById("skills-junior").innerHTML = info.site_info.skills_junior;
+    document.getElementById("skills-pleno").innerHTML = info.site_info.skills_pleno;
+    document.getElementById("skills-senior").innerHTML = info.site_info.skills_senior;
+    document.getElementById("projects-title").innerHTML = info.site_info.projects_title;
+    document.getElementById("projects-description").innerHTML = info.site_info.projects_description;
+    document.getElementById("experience-title").innerHTML = info.site_info.experience_title;
+    document.getElementById("experience-description").innerHTML = info.site_info.experience_description;
+    document.getElementById("graph-title").innerHTML = info.site_info.graph_title;
+    document.getElementById("graph-description").innerHTML = info.site_info.graph_description;
+    document.getElementById("footer-thanks").innerHTML = info.site_info.footer_thanks;
+    document.getElementById("footer-question").innerHTML = info.site_info.footer_question;
+    document.getElementById("footer-email").innerHTML = info.email;
+    document.getElementById("footer-link").innerHTML = info.site_info.footer_link;
+    document.getElementById("footer-name").innerHTML = info.short_name;
 }
 
 function whoAmI() {
@@ -23,13 +50,13 @@ function capitalize(string) {
     n = 0;
     for (word of string.split("_")) {
         let capitalized = word.charAt(0).toUpperCase() + word.slice(1);
-        title += capitalized
+        title += capitalized;
         if (n < string.split("_").length) {
-            title += " "
+            title += " ";
         }
         n += 1;
     }
-    return title
+    return title;
 }
 
 function createSkills() {
@@ -68,7 +95,7 @@ function createSkills() {
             `;
         }
 
-        return component
+        return component;
     }
 
     let component = "";
@@ -85,7 +112,7 @@ function createSkills() {
             </div>
             ${i < keys.length ? "<br />" : ""}
         `;
-        component += $cardHeader
+        component += $cardHeader;
     }
 
     document.getElementById("skills-cards").innerHTML = component;
@@ -106,7 +133,7 @@ function createProject() {
                         ${project.tecnology}
                     </span>
                 </div>
-                <div id="${project.id}" class="collapse" data-parent="#accordion">
+                <div id="${project.id}" class="collapse">
                     <div class="card-body">
                         <p class="card-text">
                             ${project.description}
@@ -166,6 +193,7 @@ function createExperience() {
 }
 
 basicInfo();
+siteInfo();
 whoAmI();
 createSkills();
 createProject();
