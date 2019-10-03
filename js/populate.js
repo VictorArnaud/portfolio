@@ -1,3 +1,18 @@
+info = en;
+function changeLanguage() {
+    if (info.site_info.language_icon === "img/br.png")
+        info = br;
+    else
+        info = en;
+
+    basicInfo();
+    siteInfo();
+    whoAmI();
+    createSkills();
+    createProject();
+    createExperience();
+}
+
 function basicInfo() {
     document.getElementById("name").innerHTML = info.short_name;
     document.getElementById("full-name").innerHTML = info.name;
@@ -7,7 +22,13 @@ function basicInfo() {
     document.getElementById("address").innerHTML = info.address;
     document.getElementById("updated_at").innerHTML = info.updated_at;
     document.getElementById("img").src = info.img;
+    document.getElementById("background").src = info.background;
     document.getElementById("certificate-link").href = info.certificate_link
+    document.getElementById("linkedin").href = info.linkedin_link
+    document.getElementById("github").href = info.github_link
+    document.getElementById("facebook").href = info.facebook_link
+    document.getElementById("instagram").href = info.instagram_link
+    document.getElementById("footer-name").href = info.github_link
 }
 
 function siteInfo() {
@@ -16,6 +37,7 @@ function siteInfo() {
     document.getElementById("projects-navbar").innerHTML = info.site_info.projects_navbar;
     document.getElementById("experience-navbar").innerHTML = info.site_info.experience_navbar;
     document.getElementById("knowledge-graph-navbar").innerHTML = info.site_info.knowledge_graph_navbar;
+    document.getElementById("language-icon").src = info.site_info.language_icon;
     document.getElementById("who-title").innerHTML = info.site_info.who_title;
     document.getElementById("certificate").innerHTML = info.site_info.certificate;
     document.getElementById("skills-title").innerHTML = info.site_info.skills_title;
@@ -36,13 +58,12 @@ function siteInfo() {
 }
 
 function whoAmI() {
-    let $div = document.getElementById("description");
-    info.description.map(text => {
-        let $p = document.createElement("p");
-        let node = document.createTextNode(text);
-        $p.appendChild(node);
-        $div.appendChild($p);
-    });
+    let component = "";
+    for (let description of info.description) {
+        component += `<p>${description}</p>`;
+    }
+
+    document.getElementById("description").innerHTML = component;
 }
 
 function capitalize(string) {
