@@ -156,7 +156,7 @@ function createProject() {
                 </div>
                 <div id="${project.id}" class="collapse">
                     <div class="card-body">
-                        <p class="card-text">
+                        <p class="card-text text-justify">
                             ${project.description}
                         </p>
                         <a href="${project.link}"
