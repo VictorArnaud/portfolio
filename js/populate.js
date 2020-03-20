@@ -41,9 +41,7 @@ function siteInfo() {
     document.getElementById("who-title").innerHTML = info.site_info.who_title;
     document.getElementById("certificate").innerHTML = info.site_info.certificate;
     document.getElementById("skills-title").innerHTML = info.site_info.skills_title;
-    document.getElementById("skills-junior").innerHTML = info.site_info.skills_junior;
-    document.getElementById("skills-pleno").innerHTML = info.site_info.skills_pleno;
-    document.getElementById("skills-senior").innerHTML = info.site_info.skills_senior;
+    document.getElementById("skills-description").innerHTML = info.site_info.skills_description;
     document.getElementById("projects-title").innerHTML = info.site_info.projects_title;
     document.getElementById("projects-description").innerHTML = info.site_info.projects_description;
     document.getElementById("experience-title").innerHTML = info.site_info.experience_title;

@@ -1,6 +1,6 @@
 let br = {
     ...generic_info,
-    updated_at: "Atualizado em 23 de setembro de 2019",
+    updated_at: "Atualizado em 20 de março de 2020",
     age: "26 anos",
     course: "Engenheiro de Software",
     address: "Brasília - DF, Brasil",
@@ -14,9 +14,7 @@ let br = {
         who_title: "Quem sou eu?",
         certificate: "Certificados",
         skills_title: "Habilidades Atuais",
-        skills_junior: "<b>Junior</b>: 0 a 3 anos de experiência.",
-        skills_pleno: "<b>Pleno</b>: 3 a 7 anos de experiência.",
-        skills_senior: "<b>Sênior</b>: 7+ anos de experiência.",
+        skills_description: "Níveis de conhecimento.",
         projects_title: "Projetos",
         projects_description: "Meus projetos pessoais e de código aberto mais recentes.",
         experience_title: "Experiências",
@@ -63,13 +61,16 @@ let br = {
             ...generic_skills.tools
         ],
         idiomas: [
-            {label: "Inglês", junior: "33", pleno: "20", senior: ""},
+            {label: "Inglês", junior: "33", pleno: "27", senior: ""},
             {label: "Português", junior: "33", pleno: "33", senior: "25"},
             {label: "Espanhol", junior: "20", pleno: "", senior: ""}
         ],
         outros: [
             {label: "Engenharia de Software", junior: "33", pleno: "30", senior: ""},
-            {label: "DevOps", junior: "25", pleno: "", senior: ""},
+            {label: "DevOps", junior: "28", pleno: "", senior: ""},
+            {label: "Ciência de Dados", junior: "10", pleno: "", senior: ""},
+            {label: "Aprendizado de Máquina", junior: "24", pleno: "", senior: ""},
+            {label: "Visão Computacional", junior: "20", pleno: "", senior: ""},
         ]
     },
     projects: [
@@ -134,6 +135,17 @@ let br = {
         }
     ],
     experience: [
+        {
+            company: "PetGuard",
+            position: "CTO",
+            time: "Atualmente",
+            description: [
+                `
+                    PetGuard tem como objetivo cuidar de quem ensina o amor, ou seja, é uma startup nova voltado ao mercado pet, sendo
+                    mais especifico para a área de Pet Care. Além de ajudar financeiramente ONGs por todo o Brasil!
+                `
+            ]
+        },
         {
             company: "ZAPAY",
             position: "Engenheiro de Software",

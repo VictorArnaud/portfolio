@@ -1,6 +1,6 @@
 let en = {
     ...generic_info,
-    updated_at: "Updated September 23, 2019",
+    updated_at: "Updated March 20, 2020",
     age: "26 years old",
     course: "Software engineer",
     address: "Brasilia - DF, Brazil",
@@ -14,9 +14,7 @@ let en = {
         who_title: "Who am I?",
         certificate: "Certificates",
         skills_title: "Current Skills",
-        skills_junior: "<b>Junior</b>: 0 to 3 years experience.",
-        skills_pleno: "<b>Pleno</b>: 3 to 7 years experience.",
-        skills_senior: "<b>Sênior</b>: 7+ years experience.",
+        skills_description: "Levels of knowledge.",
         projects_title: "Projects",
         projects_description: "My most recent personal and open source projects.",
         experience_title: "Experience",
@@ -53,13 +51,17 @@ let en = {
     skills: {
         ...generic_skills,
         language: [
-            {label: "English", junior: "33", pleno: "20", senior: ""},
+            {label: "English", junior: "33", pleno: "27", senior: ""},
             {label: "Portuguese", junior: "33", pleno: "33", senior: "25"},
             {label: "Spanish", junior: "20", pleno: "", senior: ""}
         ],
         others: [
-            {label: "Software Engineering", junior: "33", pleno: "30", senior: ""},
-            {label: "DevOps", junior: "25", pleno: "", senior: ""},
+            {label: "Software Engineering", junior: "33", pleno: "33", senior: "20"},
+            {label: "Automated Testing", junior: "33", pleno: "30", senior: ""},
+            {label: "DevOps", junior: "28", pleno: "", senior: ""},
+            {label: "Data Science", junior: "10", pleno: "", senior: ""},
+            {label: "Machine Learning", junior: "24", pleno: "", senior: ""},
+            {label: "Computer Vision", junior: "20", pleno: "", senior: ""}
         ]
     },
     projects: [
@@ -126,6 +128,17 @@ let en = {
         }
     ],
     experience: [
+        {
+            company: "PetGuard",
+            position: "CTO",
+            time: "Current",
+            description: [
+                `
+                PetGuard aims to take care of those who teach love, it's a new startup focused on the pet market, being more
+                specific to the Pet Care area. And aims helping ONGs throughout Brazil!
+                `
+            ]
+        },
         {
             company: "ZAPAY",
             position: "Software engineer",

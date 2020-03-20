@@ -13,21 +13,25 @@ generic_info = {
 
 generic_skills = {
     programming_language: [
-        {label: "Python", junior: "33", pleno: "21", senior: ""},
-        {label: "Javascript", junior: "33", pleno: "5", senior: ""},
-        {label: "HTML, CSS, Bootstrap", junior: "33", pleno: "33", senior: "7"},
-        {label: "SQL", junior: "33", pleno: "", senior: ""}
+        {label: "Python", junior: "33", pleno: "33", senior: "5"},
+        {label: "Javascript", junior: "33", pleno: "25", senior: ""},
+        {label: "HTML, CSS, Bootstrap", junior: "33", pleno: "33", senior: "10"},
+        {label: "SQL", junior: "33", pleno: "20", senior: ""}
     ],
     frameworks: [
-        {label: "Django", junior: "33", pleno: "15", senior: ""},
-        {label: "Django Rest Framework", junior: "33", pleno: "5", senior: ""},
-        {label: "React", junior: "27", pleno: "", senior: ""},
-        {label: "React Native", junior: "17", pleno: "", senior: ""},
-        {label: "Electron", junior: "12", pleno: "", senior: ""}
+        {label: "Django", junior: "33", pleno: "29", senior: ""},
+        {label: "Django Rest Framework", junior: "33", pleno: "15", senior: ""},
+        {label: "Graphene - GraphQL", junior: "33", pleno: "2", senior: ""},
+        {label: "React", junior: "33", pleno: "20", senior: ""},
+        {label: "React Native", junior: "29", pleno: "", senior: ""},
+        {label: "Electron", junior: "15", pleno: "", senior: ""}
     ],
     tools: [
-        {label: "GIT", junior: "33", pleno: "15", senior: ""},
-        {label: "Docker", junior: "26", pleno: "", senior: ""},
-        {label: "Linux", junior: "33", pleno: "33", senior: "5"}
+        {label: "GIT", junior: "33", pleno: "33", senior: "10"},
+        {label: "Docker", junior: "33", pleno: "15", senior: ""},
+        {label: "AWS", junior: "33", pleno: "1", senior: ""},
+        {label: "Linux", junior: "33", pleno: "33", senior: "15"},
+        {label: "Mac", junior: "33", pleno: "10", senior: ""},
+        {label: "Windows", junior: "33", pleno: "25", senior: ""}
     ]
 }
