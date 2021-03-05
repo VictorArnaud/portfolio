@@ -1,4 +1,4 @@
-info = en;
+info = br;
 function changeLanguage() {
     if (info.site_info.language_icon === "img/br.png")
         info = br;
@@ -94,17 +94,17 @@ function createSkills() {
                         <div class="progress">
                             ${skill.junior ?
                                 `<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: ${skill.junior}%">
-                                    ${key === "language" ? "Basic" : "Junior"}
+                                    Basic
                                 </div>`
                             : ""}
                             ${skill.pleno ?
                                 `<div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: ${skill.pleno}%">
-                                    ${key === "language" ? "Intermediary" : "Pleno"}
+                                    Intermediary
                                 </div>`
                             : ""}
                             ${skill.senior ?
                                 `<div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width: ${skill.senior}%">
-                                    ${key === "language" ? "Advanced" : "Senior"}
+                                    Advanced
                                 </div>`
                             : ""}
                         </div>

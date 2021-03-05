@@ -1,7 +1,7 @@
 let br = {
     ...generic_info,
-    updated_at: "Atualizado em 20 de março de 2020",
-    age: "26 anos",
+    updated_at: "Atualizado em 05 de março de 2021",
+    age: "27 anos",
     course: "Engenheiro de Software",
     address: "Brasília - DF, Brasil",
     site_info: {
@@ -66,14 +66,23 @@ let br = {
             {label: "Espanhol", junior: "20", pleno: "", senior: ""}
         ],
         outros: [
-            {label: "Engenharia de Software", junior: "33", pleno: "30", senior: ""},
-            {label: "DevOps", junior: "28", pleno: "", senior: ""},
-            {label: "Ciência de Dados", junior: "10", pleno: "", senior: ""},
-            {label: "Aprendizado de Máquina", junior: "24", pleno: "", senior: ""},
-            {label: "Visão Computacional", junior: "20", pleno: "", senior: ""},
+            {label: "Engenharia de Software", junior: "33", pleno: "33", senior: "2"},
+            {label: "Testes Automatizados", junior: "33", pleno: "33", senior: "2"},
+            {label: "DevOps", junior: "33", pleno: "25", senior: ""}
         ]
     },
     projects: [
+        {
+            id: "vwapp",
+            title: "VWApp",
+            tecnology: "Flask + React",
+            link: "https://www.vwapp.com.br/",
+            description: `
+                O VWApp é uma plataforma pessoal de gerenciamento de tarefas online, por exemplo, armazenamento de resumos e mapas mentais via wiki,
+                gestão de contas da casa, gestão de gastos, gerenciamento de carteira de investimento e etc. Essa plataforma inicialmente está
+                sendo desenvolvida para uso pessoal, porém em breve será disponibilizada para o público.
+            `
+        },
         {
             id: "pgtbl",
             title: "PGTBL - Plataforma de Gerenciamento de Team Based Learning",
@@ -89,14 +98,14 @@ let br = {
             id: "softeng",
             title: "SoftEng - Ontologia para cursos de engenharia de software",
             tecnology: "Django",
-            link: "https://github.com/VictorDeon/SoftEng",
+            link: "https://github.com/VWApplications/SoftEng",
             description: `Aplicativo criado em uma disciplina de engenharia de software com ênfase em ontologias para criar projeto de curso pedagógico.`
         },
         {
             id: "sdcurve",
             title: "SDCurve - Microsserviço para curvas de crescimento de síndrome de Down",
             tecnology: "Django Rest Framework",
-            link: "https://github.com/VictorDeon/sdcurve",
+            link: "https://github.com/VWApplications/sdcurve",
             description: `Microsserviço de curva de crescimento, altura, peso, EMC e perímetro cefálico para crianças com Síndrome de Down.`
         },
         {
@@ -113,7 +122,7 @@ let br = {
             id: "pigeon",
             title: "Pigeon - Intermediário dos serviços do RabbitMQ",
             tecnology: "Python",
-            link: "https://github.com/VictorDeon/Pigeon",
+            link: "https://github.com/VWApplications/Pigeon",
             description: `
                 O Pigeon é um framework desenvolvido em python que foi feito para intermediar o uso dos serviços RabbitMQ de maneira rápida
                 e fácil, serviços de comunicação entre componentes/serviços através de diferentes tipos de contexto de troca de mensagens.
@@ -130,22 +139,11 @@ let br = {
             id: "crosswalk",
             title: "Detector de Faixa de pedestre",
             tecnology: "Python",
-            link: "https://github.com/VictorDeon/Crosswalk-Detector",
+            link: "https://github.com/VWApplications/Crosswalk-Detector",
             description: "Detecção de faixa de pedestres usando treinamento em redes neurais convolucionais."
         }
     ],
     experience: [
-        {
-            company: "PetGuard",
-            position: "CTO",
-            time: "Atualmente",
-            description: [
-                `
-                    PetGuard tem como objetivo cuidar de quem ensina o amor, ou seja, é uma startup nova voltado ao mercado pet, sendo
-                    mais especifico para a área de Pet Care. Além de ajudar financeiramente ONGs por todo o Brasil!
-                `
-            ]
-        },
         {
             company: "ZAPAY",
             position: "Engenheiro de Software",
@@ -155,6 +153,17 @@ let br = {
                     Zapay é um Fintech que permite a quitação de dívidas e impostos através do uso de cartão de crédito em parcelas de até 12X.
                     Além disso, a empresa também personalizou soluções de pagamento e gerenciamento de multas para o setor automotivo, que já
                     cobre 84% da frota nacional.
+                `
+            ]
+        },
+        {
+            company: "PetGuard",
+            position: "CTO",
+            time: "2020",
+            description: [
+                `
+                    PetGuard tem como objetivo cuidar de quem ensina o amor, ou seja, é uma startup nova voltado ao mercado pet, sendo
+                    mais especifico para a área de Pet Care. Além de ajudar financeiramente ONGs por todo o Brasil!
                 `
             ]
         },

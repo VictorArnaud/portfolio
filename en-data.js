@@ -1,7 +1,7 @@
 let en = {
     ...generic_info,
-    updated_at: "Updated March 20, 2020",
-    age: "26 years old",
+    updated_at: "Updated March 05, 2021",
+    age: "27 years old",
     course: "Software engineer",
     address: "Brasilia - DF, Brazil",
     site_info: {
@@ -57,14 +57,22 @@ let en = {
         ],
         others: [
             {label: "Software Engineering", junior: "33", pleno: "33", senior: "20"},
-            {label: "Automated Testing", junior: "33", pleno: "30", senior: ""},
-            {label: "DevOps", junior: "28", pleno: "", senior: ""},
-            {label: "Data Science", junior: "10", pleno: "", senior: ""},
-            {label: "Machine Learning", junior: "24", pleno: "", senior: ""},
-            {label: "Computer Vision", junior: "20", pleno: "", senior: ""}
+            {label: "Automated Testing", junior: "33", pleno: "33", senior: "2"},
+            {label: "DevOps", junior: "33", pleno: "25", senior: ""},
         ]
     },
     projects: [
+        {
+            id: "vwapp",
+            title: "VWApp",
+            tecnology: "Flask + React",
+            link: "https://www.vwapp.com.br/",
+            description: `
+                VWApp is a personal online task management platform, for example, storage of summaries and mind maps by wiki, home bills management,
+                liability management, investment portfolio management, etc. This platform is initially being developed for personal use, but will
+                soon be made available to the public.
+            `
+        },
         {
             id: "pgtbl",
             title: "PGTBL - Team Based Learning Management Platform",
@@ -80,14 +88,14 @@ let en = {
             id: "softeng",
             title: "SoftEng - Software Engineering Ontology",
             tecnology: "Django",
-            link: "https://github.com/VictorDeon/SoftEng",
+            link: "https://github.com/VWApplications/SoftEng",
             description: `Software Engineering Ontology app to create pedagogical course project`
         },
         {
             id: "sdcurve",
             title: "SDCurve - Down Syndrome Growth Curves Microservice",
             tecnology: "Django Rest Framework",
-            link: "https://github.com/VictorDeon/sdcurve",
+            link: "https://github.com/VWApplications/sdcurve",
             description: `Microservice of growth curve, height, weight, EMC and cephalic perimeter for children with Down Syndrome`
         },
         {
@@ -105,7 +113,7 @@ let en = {
             id: "pigeon",
             title: "Pigeon - Intermediate of RabbitMQ services",
             tecnology: "Python",
-            link: "https://github.com/VictorDeon/Pigeon",
+            link: "https://github.com/VWApplications/Pigeon",
             description: `
                 Pigeon is a framework developed in python that was made to intermediate the use of RabbitMQ
                 services in a quick and easy way, these services of communication between components/services
@@ -123,22 +131,11 @@ let en = {
             id: "crosswalk",
             title: "Crosswalk Detector",
             tecnology: "Python",
-            link: "https://github.com/VictorDeon/Crosswalk-Detector",
+            link: "https://github.com/VWApplications/Crosswalk-Detector",
             description: "Crosswalk detection using convolutional neural networks training."
         }
     ],
     experience: [
-        {
-            company: "PetGuard",
-            position: "CTO",
-            time: "Current",
-            description: [
-                `
-                PetGuard aims to take care of those who teach love, it's a new startup focused on the pet market, being more
-                specific to the Pet Care area. And aims helping ONGs throughout Brazil!
-                `
-            ]
-        },
         {
             company: "ZAPAY",
             position: "Software engineer",
@@ -149,6 +146,17 @@ let en = {
                     the use of credit card in installments up to 12X. In addition, the company
                     also has customized payment and penalty management solutions for the automotive
                     sector, which already covers 84% of the national fleet.
+                `
+            ]
+        },
+        {
+            company: "PetGuard",
+            position: "CTO",
+            time: "2020",
+            description: [
+                `
+                PetGuard aims to take care of those who teach love, it's a new startup focused on the pet market, being more
+                specific to the Pet Care area. And aims helping ONGs throughout Brazil!
                 `
             ]
         },

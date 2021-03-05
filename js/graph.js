@@ -17,8 +17,7 @@ var nodes = new vis.DataSet([
   {id: 2, label: 'Django', shape: "image", image: "https://user-images.githubusercontent.com/14116020/49750998-764dc380-fc93-11e8-92db-45e4219d13fe.png"},
   {id: 3, label: 'Django Rest Framework', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49751274-1f94b980-fc94-11e8-9c10-1f7c548bf3b1.png'},
   {id: 4, label: 'Pytest', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49752502-b616aa00-fc97-11e8-8402-cf67e0e9f01b.png'},
-  {id: 5, label: 'Data Science', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49752565-dcd4e080-fc97-11e8-808d-b257457c9631.png'},
-  {id: 6, label: 'Machine Learning', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49752603-fece6300-fc97-11e8-8a7d-271d29394b4a.png'},
+  {id: 5, label: 'NoSQL', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/110171368-61146080-7dda-11eb-9233-bb55c0337b48.png'},
   {id: 7, label: 'Javascript', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49751796-8070c180-fc95-11e8-93b0-90ddebe50167.png'},
   {id: 12, label: 'React Native', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65401932-8c032400-dda1-11e9-863e-f13cd5bc9de5.png'},
   {id: 13, label: 'Electron', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66019603-9cf71800-e4ba-11e9-9ee2-27f97e047739.png'},
@@ -39,19 +38,18 @@ var nodes = new vis.DataSet([
   {id: 33, label: 'IOS', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49753379-5d94dc00-fc9a-11e8-8603-84e39293093a.png'},
   {id: 34, label: 'Android', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49753401-6be2f800-fc9a-11e8-800b-a96990679c4d.png'},
   {id: 35, label: 'React', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65401932-8c032400-dda1-11e9-863e-f13cd5bc9de5.png'},
-  {id: 36, label: 'Computer Vision', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65402057-60346e00-dda2-11e9-934d-14ab3ff5a1b5.png'},
   {id: 37, label: 'GraphQL', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65402104-c7522280-dda2-11e9-86f2-206e51608c1e.png'},
-  {id: 38, label: 'API', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66020011-10e5f000-e4bc-11e9-9bd0-529ce2bdfab1.png'}
+  {id: 38, label: 'API', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66020011-10e5f000-e4bc-11e9-9bd0-529ce2bdfab1.png'},
+  {id: 39, label: 'Flask', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/110170800-7f2d9100-7dd9-11eb-87dc-2e6d8d8c56e0.png'},
+  {id: 40, label: 'FastAPI', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/110170868-95d3e800-7dd9-11eb-83d0-b1ee20f788bd.png'},
+  {id: 41, label: 'MongoDB', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/110170738-691fd080-7dd9-11eb-8636-dc3220040d01.png'}
 ]);
 
 var edges = new vis.DataSet([
   {from: 2, to: 1, arrows: 'to'},
-  {from: 36, to: 1, arrows: 'to'},
   {from: 2, to: 3, arrows: 'to'},
   {from: 2, to: 37, arrows: 'to'},
   {from: 4, to: 1, arrows: 'to'},
-  {from: 5, to: 1, arrows: 'to'},
-  {from: 6, to: 1, arrows: 'to'},
   {from: 1, to: 20, arrows: 'to'},
   {from: 7, to: 20, arrows: 'to'},
   {from: 15, to: 25, arrows: 'to'},
@@ -79,7 +77,14 @@ var edges = new vis.DataSet([
   {from: 28, to: 33, arrows: 'to'},
   {from: 28, to: 34, arrows: 'to'},
   {from: 12, to: 28, arrows: 'to'},
-  {from: 35, to: 31, arrows: 'to'}
+  {from: 35, to: 31, arrows: 'to'},
+  {from: 39, to: 1, arrows: 'to'},
+  {from: 40, to: 1, arrows: 'to'},
+  {from: 39, to: 41, arrows: 'to'},
+  {from: 40, to: 41, arrows: 'to'},
+  {from: 39, to: 37, arrows: 'to'},
+  {from: 40, to: 37, arrows: 'to'},
+  {from: 41, to: 5, arrows: 'to'}
 ]);
 
 var container = document.getElementById('graph');
