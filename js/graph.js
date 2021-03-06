@@ -21,7 +21,7 @@ var nodes = new vis.DataSet([
   {id: 7, label: 'Javascript', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49751796-8070c180-fc95-11e8-93b0-90ddebe50167.png'},
   {id: 12, label: 'React Native', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/65401932-8c032400-dda1-11e9-863e-f13cd5bc9de5.png'},
   {id: 13, label: 'Electron', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66019603-9cf71800-e4ba-11e9-9ee2-27f97e047739.png'},
-  {id: 15, label: 'PostgreSQL', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49751989-199fd800-fc96-11e8-9f9c-782d00f81cff.png'},
+  {id: 15, label: 'SQL', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/110218310-e1e56200-7e97-11eb-8956-77940892de7c.png'},
   {id: 18, label: 'Windows', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66019758-fbbc9180-e4ba-11e9-8fbf-e46d712ff949.png'},
   {id: 19, label: 'MacOS', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/66019858-640b7300-e4bb-11e9-91d0-1d32866f325a.png'},
   {id: 20, label: 'Git', shape: 'image', image: 'https://user-images.githubusercontent.com/14116020/49753012-3689da80-fc99-11e8-84a6-226c2a2590e8.png'},

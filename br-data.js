@@ -84,6 +84,13 @@ let br = {
             `
         },
         {
+            id: "notebook",
+            title: "Jupyter Notebook",
+            tecnology: "Python",
+            link: "https://github.com/VictorDeon/python-notebook",
+            description: `Aqui tem vários resumos de algorítmos em python que aprendi ao longo do tempo.`
+        },
+        {
             id: "pgtbl",
             title: "PGTBL - Plataforma de Gerenciamento de Team Based Learning",
             tecnology: "Django",

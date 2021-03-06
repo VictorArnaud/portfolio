@@ -74,6 +74,13 @@ let en = {
             `
         },
         {
+            id: "notebook",
+            title: "Jupyter Notebook",
+            tecnology: "Python",
+            link: "https://github.com/VictorDeon/python-notebook",
+            description: `Here are several summaries of python algorithms that I have learned over time.`
+        },
+        {
             id: "pgtbl",
             title: "PGTBL - Team Based Learning Management Platform",
             tecnology: "Django",

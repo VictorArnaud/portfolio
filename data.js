@@ -17,7 +17,7 @@ generic_skills = {
         {label: "Javascript", junior: "33", pleno: "33", senior: ""},
         {label: "HTML, CSS, Bootstrap", junior: "33", pleno: "33", senior: "22"},
         {label: "SQL", junior: "33", pleno: "25", senior: ""},
-        {label: "noSQL", junior: "33", pleno: "10", senior: ""}
+        {label: "NoSQL", junior: "33", pleno: "10", senior: ""}
     ],
     frameworks: [
         {label: "Django", junior: "33", pleno: "33", senior: "2"},
